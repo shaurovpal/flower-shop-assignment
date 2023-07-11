@@ -45,7 +45,7 @@
 /* featured-flowers Design */
 
 .featured-flowers {
-    padding: 180px 240px;
+    padding: 180px  240px 0 240px;
 }
 
 .featured-flowers h1 {
@@ -115,3 +115,32 @@
     width: 88px;
     height: 88px;
 }
+
+
+
+
+.sellup-section{
+    display: flex;
+    text-align: center;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px;
+}
+
+
+.sellup-text h2{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+
+.sellup-text p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 24px 0 32px 0;
+    }
