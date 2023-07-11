@@ -128,19 +128,77 @@
     justify-content: space-around;
     padding: 100px;
 }
-
-
 .sellup-text h2{
     color: #272727;
     font-size: 40px;
     font-weight: 800;
 }
-
-
 .sellup-text p{
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
     margin: 24px 0 32px 0;
-    }
+}
+
+
+
+
+
+
+.insta{
+    padding: 128px 240px
+
+}
+.insta h2{
+    color: #272727;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+}
+.insta p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    padding: 24px 0 50px 0;
+}
+.img-gallery img{
+    width: 342px;
+height: 396px;
+
+}
+.img-gallery{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.deals{
+    background-image: url("./img/back.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 449px;
+    margin: 128px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.deals input{
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+    border: 1px solid transparent;
+    margin-right: 15px;
+}
+.input-div{
+    display: flex;
+
+}
+input::placeholder{
+    padding-left: 22px;
+}
